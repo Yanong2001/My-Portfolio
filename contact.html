@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UFT-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-egde">
+        <meta name="viewport" content="width-device-width, inital-scale=1.0">
+        <title>Contact | Ponclara</title>
+        <link rel="stylesheet" href="css/contact.css">
+        <link rel="icon" href="img/logo.png">
+
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    </head>
+    <body>
+        <header class="header">
+            <a href="index.html" class="logo">My Portfolio</a>
+        
+            <nav class="navbar">
+                <a href="index.html" class="active">Home</a> 
+                <a href="about.html" style="--i:7">About</a> 
+                <a href="grade.html" style="--i:10">Grades</a> 
+                <a href="photoslide.html" style="--i:10">Skills</a>
+                <a href="contact.html" style="--i:10">Contact</a>
+                <a href="project.html" style="--i:8">Project</a>
+            </nav>
+
+            <div class="toggle">
+                <i class='bx bx-moon toggle-icon'></i>
+
+            </div>
+        </header>
+        
+        <section class="home">
+            <div class="home-content">
+                <h3>Contact</h3>
+                <h1>-</h1>
+                <form class="" action="send.php" method="post">
+                    <input class="box b1" type="email" name="email" placeholder="Enter email">
+                    <input class="box b2" type="text" name="name" placeholder="Enter name">
+                    <input class="box b3" type="text" name="contact" placeholder="Enter contact">
+                    <textarea class="box b4" name="message" placeholder="Enter message"></textarea>
+                    <button class="button1" type="submit" name="send">Send</button>
+                </form>
+            </div>
+
+            <div class="profession-container">
+                <div class="profession-box">
+                    <div class="profession" style="--i:0;">
+                        <i class='bx bx-code-alt'></i></i>
+                        <h3>Web Developer</h3>
+                    </div>
+                    <div class="profession" style="--i:1;">
+                        <i class='bx bx-camera'></i>
+                        <h3>Photographer</h3>
+                    </div>
+                    <div class="profession" style="--i:2;">
+                        <i class='bx bx-palette' ></i>
+                        <h3>Web Designer</h3>
+                    </div>
+                    <div class="profession" style="--i:3;">
+                        <i class='bx bx-video-recording'></i>
+                        <h3>Video Editor</h3>
+                    </div>
+                    
+                    <div class="circle"></div>
+                </div>
+
+                <div class="overlay"></div>
+            </div>
+
+            <div class="home-img">
+                <img src="img/home.png" alt="">
+            </div>
+            
+        </section>
+        
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="7"><h1>Registration Form</h1></th>
+        </tr>
+        <tr>
+            <td colspan="2">Enter Name</td>
+            <td colspan="2"><input type="text" placeholder="Rialyn M. Ponclara"></td>
+            <td rowspan="3" colspan="3"><img src="img/img.jpeg" height="200" width="200"/></td>
+        </tr>
+        <tr>
+            <td colspan="2">Enter Password</td>
+            <td colspan="2"><input type="text" placeholder="**********"></td>
+        </tr>
+        <tr>
+            <td colspan="2">Email Address</td>
+            <td colspan="2"><input type="text" placeholder="rialyn.ponclara@lspu.edu.ph"></td>
+        </tr>
+        <tr>
+            <td colspan="2">Select Game</td>
+            <td colspan="5">
+                <input type="radio"><label> Hockey</label><br/>
+                <input type="radio"><label> Football</label><br/>
+                <input type="radio"><label> Badminton</label><br/>
+                <input type="radio"><label> Cricket</label><br/>
+                <input type="radio"><label> Volleyball</label><br/>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">Gender</td>
+            <td colspan="5">
+                <input type="radio"><label> Male</label>
+                <input type="radio"><label> Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">Select your Age</td>
+            <td colspan="5">
+                <select id="age" name="age">
+                    <option value="select">Select</option>
+                    <script>
+                        for (var i = 1; i <= 100; i++) {
+                            document.write("<option value='" + i + "'>" + i + "</option>");
+                        }
+                    </script>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">Select Photo</td>
+            <td colspan="5">
+                <form>
+                    <input type="file" id="myFile" name="filename">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="7">
+                <button>Click Me</button>
+                <button>Reset</button>
+                <button>Submit Button</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

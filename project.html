@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UFT-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-egde">
+        <meta name="viewport" content="width-device-width, inital-scale=1.0">
+        <title>Project | Ponclara</title>
+        <link rel="stylesheet" href="css/project.css">
+        <link rel="icon" href="img/logo.png">
+
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <style>
+            .bank {
+                position: absolute;
+                top: 20px;
+            }
+
+            .shop{
+                position: absolute;
+                top: 170px;
+            }
+
+            .bank-p {
+                position: absolute;
+                top: 270px;
+                max-width: 4000px;
+            }
+
+            .shop-p{
+                position: absolute;
+                top: 550px;
+                max-width: 500px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <header class="header">
+            <a href="index.html" class="logo">My Portfolio</a>
+        
+            <nav class="navbar">
+                <a href="index.html" class="active">Home</a> 
+                <a href="about.html" style="--i:7">About</a> 
+                <a href="grade.html" style="--i:10">Grades</a> 
+                <a href="photoslide.html" style="--i:10">Skills</a>
+                <a href="contact.html" style="--i:10">Contact</a>
+                <a href="project.html" style="--i:8">Project</a>
+            </nav>
+
+            <div class="toggle">
+                <i class='bx bx-moon toggle-icon'></i>
+
+            </div>
+        </header>
+        
+        <section class="home">
+            <div class="home-content">
+                <h3>My Accomplishment </h3>
+                <section class="bank">
+                    <a class="bank" href="../bank_system/index.php"><img class="map bank" src="img/bank.png" height="200px" width="450px" alt=""></s>
+                </section>
+                <section class="shop">
+                    <a href="../OnlineShoppingManagementSystem/login.php"><img class="map shop" src="img/shop.png" height="200px" width="450px" alt=""></a>
+                </section>
+                <p class="shop-p">Online Shopping Management System</p>
+                <p class="bank-p">Bank Management System</p>
+            </div>
+
+            <div class="profession-container">
+                <div class="profession-box">
+                    <div class="profession" style="--i:0;">
+                        <i class='bx bx-code-alt'></i></i>
+                        <h3>Web Developer</h3>
+                    </div>
+                    <div class="profession" style="--i:1;">
+                        <i class='bx bx-camera'></i>
+                        <h3>Photographer</h3>
+                    </div>
+                    <div class="profession" style="--i:2;">
+                        <i class='bx bx-palette' ></i>
+                        <h3>Web Designer</h3>
+                    </div>
+                    <div class="profession" style="--i:3;">
+                        <i class='bx bx-video-recording'></i>
+                        <h3>Video Editor</h3>
+                    </div>
+                    
+                    <div class="circle"></div>
+                </div>
+
+                <div class="overlay"></div>
+            </div>
+
+            <div class="home-img">
+                <img src="img/home.png" alt="">
+            </div>
+            
+        </section>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
